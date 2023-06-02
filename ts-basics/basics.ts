@@ -37,7 +37,7 @@ function add(a: number, b: number) {
   return a+b;
 };
 
-function print (vaulue: any) {
+function print (value: any) {
   console.log(value);
 }
 
@@ -50,4 +50,4 @@ function insertAtBeginning<T>(array: T[], value: T) {
 
 const demoArray= [1, 2, 3];
 
-const updatedArray = insertAtBeggining(demoArray, -1); 
+const updatedArray = insertAtBeginning(demoArray, -1); 
